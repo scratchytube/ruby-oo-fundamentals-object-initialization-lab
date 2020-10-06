@@ -1,14 +1,11 @@
-class Dog
-    def initialize(name, breed = "Mutt")
-    @name = name 
-    @breed = breed 
-    end
+require 'pry'
 
-    def breed
+class Dog
+
+    def initialize(name, breed = "Mutt")
+        @name = name
         @breed = breed
     end
 
-    def breed
-        @breed 
-    end 
+
 end
